@@ -39,18 +39,18 @@ CTGTCTCTTATACACATCT     0       Nextera
 AAGTCGGAGGCCAAGCGGTC    0       BGI Read 1
 AAGTCGGATCGTAGCCATGT    0       BGI Read 2
 
-real    1m8.361s
-user    1m16.652s
-sys     0m6.031s
+real    1m3.841s
+user    1m16.785s
+sys     0m4.429s
 
 $ time guessadapt example.fastq.gz --limit 2000000
 AGATCGGAAGAGC   1709862
 CTGTCTCTTATA    328
 TGGAATTCTCGG    37
 
-real    1m3.841s
-user    1m16.785s
-sys     0m4.429s
+real    1m21.519s
+user    1m20.880s
+sys     0m0.372s
 ```
 
 ## Acknowledgments
